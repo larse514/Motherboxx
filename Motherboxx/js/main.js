@@ -7,6 +7,11 @@ var app = {
 			alert(title ? (title + ": " + message) : message);
 		}
 	},
+	initialize: function(){
+		var self = this;
+		self.showAlert('Motherboxx', 'No Way')
+
+	}
 
 };
 

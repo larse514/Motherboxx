@@ -9,8 +9,16 @@ var app = {
 	},
 	initialize: function(){
 		var self = this;
-		alert("message");
-
+		//showAlert('oh my', 'jargon')
+	},
+	helloworld: function(){
+		$.ajax({
+			url:'http://localhost:8080/helloworld',
+			dataType: 'jsonp',
+			success: function(result) {
+			alert(result);
+			}  // edited
+		});
 	}
 
 };

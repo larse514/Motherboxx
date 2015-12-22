@@ -1,0 +1,29 @@
+
+body {
+	width: 98%;
+	font-family: 'Open Sans', sans-serif;
+	background: url(../img/motherboxxTemplate.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.wrapper {
+	width: 98%;
+	height: 500px; 
+}
+.header {height: 300px; padding: 5px; }
+.content{height: 300px; padding: 5px; }
+.footer{ padding: 5px; }
+
+/* Login content */
+.button{width: 46%; display: block; text-align: center; padding: 2px 5px 2px 5px; border: 1px solid black; margin: 5px auto; text-decoration: none;color: white;}
+.buttonWrapper{text-align: center; margin-top: 20px;}
+#loginButton{background-color:deepskyblue;}
+#registerButton{background-color:dodgerblue;}
+.loginInput{ text-align: center; padding: 5px}
+.forgotPasswordLink {font-size: 13px; width: 50%; display: block; text-align: center; margin: auto; text-decoration: none; color: white; padding-top: 5px;}
+.loginInput > input{width: 50%; padding: 2px 5px 2px 5px; }
+
+
+

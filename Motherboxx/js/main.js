@@ -16,7 +16,7 @@ var app = {
 			url:'http://localhost:8080/helloworld',
 			dataType: 'jsonp',
 			success: function(result) {
-			alert(result);
+				alert(result);
 			}  // edited
 		});
 	}

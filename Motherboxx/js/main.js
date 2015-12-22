@@ -9,7 +9,7 @@ var app = {
 	},
 	initialize: function(){
 		var self = this;
-		$("#forgotPasswordLink").on("touchend", function () { alert("message"); });
+		alert("message");
 
 	}
 

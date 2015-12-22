@@ -9,7 +9,7 @@ var app = {
 	},
 	initialize: function(){
 		var self = this;
-		self.showAlert('Motherboxx', 'No Way')
+		$("#forgotPasswordLink").on("touchend", function () { alert("message"); });
 
 	}
 

@@ -9,33 +9,39 @@
 	<link href="./css/motherBoxx.css" rel="stylesheet">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="node_modules/angular/angular.js"></script>
+	<script src="phonegap.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/controller/LoginController.js"></script>
 </head>
-<body>
+<body ng-app="loginViewer">
 	<div class="wrapper">
 		<div class="header">
 		</div>
 		<div class="content">
-			<form id="loginForm">
-				<div class="loginInput">
-					<input type="input" name="userName" id="userName" placeholder="Email Address" class="input">
-				</div>
-				<div class="loginInput">
-					<input type="input" name="Password" id="Password" placeholder="Password" class="input">
-				</div>
-				<div class="buttonWrapper">
-				<a href="" id="loginButton" class="button loginButton">Login</a>
-				<a href="" id="registerButton" class="button registerButton">Register</a>
-				<a href="" id="forgotPasswordLink" class="forgotPasswordLink">Forgot Password?</a>
-				</div>
-			</form>
+			<div ng-controller="LoginController">
+				<form id="loginForm">
+					{{message}}
+					<div class="loginInput">
+						<input type="input" name="userName" id="userName" placeholder="Email Address" class="input" value="{{dbinfo}}">
+					</div>
+					<div class="loginInput">
+						<input type="input" name="Password" id="Password" placeholder="Password" class="input">
+					</div>
+					<div class="buttonWrapper">
+					<a href="" id="loginButton" class="button loginButton">Login</a>
+					<a href="" id="registerButton" class="button registerButton">Register</a>
+					<a href="" id="forgotPasswordLink" class="forgotPasswordLink">Forgot Password?</a>
+					</div>
+				</form>
+			</div>
 		</div>
 		<div class="footer">
 			<h6>Footer</h6>
 		</div>
 		
 	</div>
-	<script src="phonegap.js"></script>
-	<script src="js/main.js"></script>
+
 </body>
 
 

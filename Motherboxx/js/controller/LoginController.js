@@ -6,11 +6,15 @@
     var angularApp = angular.module("loginViewer", []);
     var LoginController = function ($scope, $http) {
 
-        $http.get({
-            url:"http://mbloginservice-larslarslars.rhcloud.com/test",
-            dataType: 'jsonp',
-            method: 'GET'
+        $http.get("http://mbloginservice-larslarslars.rhcloud.com/test")
+            .success(function (data) {
+                window.alert(data)
             })
+            .error(function (data, status) {
+                window.alert(data);
+                window.alert(status);
+            });
+        $http.get("http://mbloginsefrvice-larslarslars.rhcloud.com/test")
             .success(function (data) {
                 window.alert(data)
             })

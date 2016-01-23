@@ -6,11 +6,16 @@
     var angularApp = angular.module("loginViewer", []);
     var LoginController = function ($scope, $http) {
 
-        $http.get("http://mbloginservice-larslarslars.rhcloud.com/test")
-            .then(function (response) {
+        $http.post(
+            "http://mblogins0ervice-larslarslars.rhcloud.com/login",
+            {
+                userName: "test", password: "password"
+            }
+        ).then(function (response) {
             $scope.dbinfo = response.data;
+        }, function(error){
+            app.showAlert("Failed to load server data","Server Error")
         })
-
     };
 
     angularApp.controller("LoginController", LoginController)

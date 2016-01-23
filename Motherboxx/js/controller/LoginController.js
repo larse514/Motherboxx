@@ -5,12 +5,11 @@
 {
     var angularApp = angular.module("loginViewer", []);
     var LoginController = function ($scope, $http) {
-        $scope.dbinfo = "butthole";
 
-     /*   $http.get("http://mbloginservice-larslarslars.rhcloud.com/test").then(function(response){
+        $http.get("http://mbloginservice-larslarslars.rhcloud.com/test").then(function (response) {
             $scope.dbinfo = response.data;
         });
-        */
+
 
     };
 

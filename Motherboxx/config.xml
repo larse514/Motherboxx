@@ -6,7 +6,9 @@
         version     = "1.1.0">
  
     <name>Motherboxx</name>
- 
+
+    <plugin name="com.indigoway.cordova.whitelist.whitelistplugin" spec="1.1.1" source="pgb" />
+
     <description>
 		A place to Geek out
     </description>

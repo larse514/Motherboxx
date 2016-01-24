@@ -1,5 +1,5 @@
 var app = {
-
+	//GLOBAL alert method to use native phone dialog
 	showAlert: function (message, title) {
 		if (navigator.notification) {
 			navigator.notification.alert(message, null, title, 'OK');
@@ -9,7 +9,6 @@ var app = {
 	},
 	initialize: function(){
 		var self = this;
-		//showAlert('oh my', 'jargon')
 	},
 	helloworld: function(){
 		$.ajax({
@@ -27,7 +26,5 @@ var app = {
 		});
 	}
 };
-
-
 
 app.initialize();

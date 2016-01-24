@@ -33,7 +33,8 @@
             app.showAlert("test",OPENSHIFT.URLS.LOGIN)
 
             $http.post(
-                OPENSHIFT.URLS.LOGIN,
+              //  OPENSHIFT.URLS.LOGIN,
+                'http://mbloginservice-larslarslars.rhcloud.com/login',
                 {
                     userName: userName, password: password
                 }

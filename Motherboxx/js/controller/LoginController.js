@@ -30,7 +30,7 @@
          */
         $scope.login = function(userName, password) {
             //submit post
-            app.showAlert("test",OPENSHIFT.URLS.LOGIN)
+            app.showAlert("test", 'http://mbloginservice-larslarslars.rhcloud.com/login')
 
             $http.post(
               //  OPENSHIFT.URLS.LOGIN,

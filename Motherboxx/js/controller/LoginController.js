@@ -30,6 +30,8 @@
          */
         $scope.login = function(userName, password) {
             //submit post
+            app.showAlert("test",userName)
+
             $http.post(
                 OPENSHIFT.URLS.LOGIN,
                 {
@@ -39,7 +41,7 @@
         };
         $scope.test = function(){
             app.showAlert(localStorage.token, new Date(parseInt(localStorage.expires)))
-        }
+        };
         /**
          * Method to store token data
          * @param data

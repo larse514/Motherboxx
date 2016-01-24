@@ -10,7 +10,7 @@
             app.showAlert("Success", response.data)
         };
 
-        var onError = function(){
+        var onError = function(error){
             app.showAlert("Failed to load server data",error)
         };
 

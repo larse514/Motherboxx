@@ -30,7 +30,7 @@
          */
         $scope.login = function(userName, password) {
             //submit post
-            app.showAlert("test",userName)
+            app.showAlert("test",OPENSHIFT.URLS.LOGIN)
 
             $http.post(
                 OPENSHIFT.URLS.LOGIN,

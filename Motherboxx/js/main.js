@@ -11,19 +11,7 @@ var app = {
 		var self = this;
 	},
 	helloworld: function(){
-		$.ajax({
-			url:'http://mbloginservice-larslarslars.rhcloud.com/login',
-			contentType:"application/json",
-			type: "POST",
-			data:{
-			},
-			success: function(result) {
-				alert(result.message);
-			},
-			error: function(err){
-				console.log(err)
-			}// edited
-		});
+
 	}
 };
 

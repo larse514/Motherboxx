@@ -30,19 +30,34 @@
          */
         $scope.login = function(userName, password) {
             //submit post
-            app.showAlert("test", 'http://mbloginservice-larslarslars.rhcloud.com/login')
-
             $http.post(
-              //  OPENSHIFT.URLS.LOGIN,
-                'http://mbloginservice-larslarslars.rhcloud.com/login',
+                JSON.parse(localStorage.OPENSHIFT).URLS.LOGIN,
                 {
                     userName: userName, password: password
                 }
             ).then(onSuccess, onError)
         };
         $scope.test = function(){
-            app.showAlert(localStorage.token, new Date(parseInt(localStorage.expires)))
+            $http.post(
+                JSON.parse(localStorage.OPENSHIFT).URLS.HELLO_WORLD,
+                {
+                    headers: {'x-access-token': localStorage.token}
+                }).then(onSuccess,onError)
         };
+        $scope.helloLocation = function(){
+            navigator.geolocation.getCurrentPosition(function(position)
+                {
+                    // just to show how to access latitute and longitude
+                    var location = [position.coords.latitude, position.coords.longitude];
+                    alert(location)
+                },
+                function(error)
+                {
+                    // error getting GPS coordinates
+                    alert('code: ' + error.code + ' with message: ' + error.message + '\n');
+                },
+                { enableHighAccuracy: true, maximumAge: 3000, timeout: 5000 });
+        }
         /**
          * Method to store token data
          * @param data

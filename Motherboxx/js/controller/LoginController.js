@@ -56,7 +56,7 @@
                     // error getting GPS coordinates
                     alert('code: ' + error.code + ' with message: ' + error.message + '\n');
                 },
-                { enableHighAccuracy: true, maximumAge: 3000, timeout: 5000 });
+                { enableHighAccuracy: true, maximumAge: 0, timeout: 10000 });
         }
         /**
          * Method to store token data

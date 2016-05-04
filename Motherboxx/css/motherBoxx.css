@@ -1,6 +1,10 @@
 
 body {
-	width: 98%;
+	margin: 0px;
+}
+.wrapper {
+	padding: 5px;
+	width: 100%;
 	font-family: 'Open Sans', sans-serif;
 	background: url(../img/motherboxxTemplate.png) no-repeat center center fixed; 
 	-webkit-background-size: cover;
@@ -8,12 +12,7 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 }
-.wrapper {
-	width: 98%;
-	height: 500px; 
-}
-.header {height: 300px; padding: 5px; }
-.content{height: 300px; padding: 5px; }
+
 .footer{ padding: 5px; }
 
 /* Login content */
@@ -24,6 +23,7 @@ body {
 .loginInput{ text-align: center; padding: 5px}
 .forgotPasswordLink {font-size: 13px; width: 50%; display: block; text-align: center; margin: auto; text-decoration: none; color: white; padding-top: 5px;}
 .loginInput > input{width: 50%; padding: 2px 5px 2px 5px; }
+.landingPageButton{display: block; margin: 20px;}
 
 
 

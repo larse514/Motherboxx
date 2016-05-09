@@ -14,49 +14,26 @@
 		<script src="js/util/constants.js"></script>
 		<script src="js/controller/LoginController.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular.min.js"></script>
+
 	</head>
-	<body>
-						<div ng-controller="MenuController" layout="column" style="height:500px;" ng-cloak>
-							<section layout="row" flex>
-								<md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')">
-									<md-toolbar class="md-theme-indigo">
-										<h1 class="md-toolbar-tools">Sidenav Left</h1>
-									</md-toolbar>
-									<md-content layout-padding ng-controller="LeftMenuController">
-										<md-button ng-click="close()" class="md-primary" hide-gt-md>
-											Close Sidenav Left
-										</md-button>
-										<p hide-md show-gt-md>
-											This sidenav is locked open on your device. To go back to the default behavior,
-											narrow your display.
-										</p>
-									</md-content>
-								</md-sidenav>
-								<md-content flex layout-padding>
-									<div layout="column" layout-fill layout-align="top center">
-										<p>
-											The left sidenav will 'lock open' on a medium (>=960px wide) device.
-										</p>
-										<p>
-											The right sidenav will focus on a specific child element.
-										</p>
-										<div>
-											<md-button ng-click="toggleLeft()"
-													   class="md-primary" hide-gt-md>
-												Toggle left
-											</md-button>
-										</div>
-										<div>
-											<md-button ng-click="toggleRight()"
-													   ng-hide="isOpenRight()"
-													   class="md-primary">
-												Toggle right
-											</md-button>
-										</div>
-									</div>
-									<div flex></div>
-								</md-content>
-							</section>
-						</div>
+	<body ng-controller="modalDemo">
+		<h1>Angular JS Sliding Menu</h1>
+		<span>This page demonstrates how a menu panel can be slid in from the side of the screen using Angular JS. It's a great directive to use for mobile devices.</span>
+		<span>The menu itself is an Angular JS directive, and I'm using LESS CSS for some of the more complicated CSS rules. I highly recommend you check them out.</span>
+		<button ng-click="showLeft($event)">Show Left Menu!</button>
+		<button ng-click="showRight($event)">Show Right Menu!</button>
+
+		<menu visible="leftVisible" alignment="left">
+			<menu-item hash="first-page">First Page</menu-item>
+			<menu-item hash="second-page">Second Page</menu-item>
+			<menu-item hash="third-page">Third Page</menu-item>
+		</menu>
+
+		<menu visible="rightVisible" alignment="right">
+			<menu-item hash="first-page">First Page</menu-item>
+			<menu-item hash="second-page">Second Page</menu-item>
+			<menu-item hash="third-page">Third Page</menu-item>
+		</menu>
 	</body>
 </html>

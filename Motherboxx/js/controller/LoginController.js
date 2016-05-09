@@ -68,64 +68,81 @@
 			localStorage.expires = parseInt(data.expires);
 		}
 		};
+	
+	var modalDemo = function($scope, $rootScope) {
+		$scope.leftVisible = false;
+		$scope.rightVisible = false;
 
-	var LeftMenuController = function ($scope, $timeout, $mdSidenav, $log) {
-		$scope.close = function () {
-			$mdSidenav('left').close()
-				.then(function () {
-				$log.debug("close LEFT is done");
+		$scope.close = function() {
+			$scope.leftVisible = false;
+			$scope.rightVisible = false;
+		};
+
+		$scope.showLeft = function(e) {
+			$scope.leftVisible = true;
+			e.stopPropagation();
+		};
+
+		$scope.showRight = function(e) {
+			$scope.rightVisible = true;
+			e.stopPropagation();
+		}
+
+		$rootScope.$on("documentClicked", _close);
+		$rootScope.$on("escapePressed", _close);
+
+		function _close() {
+			$scope.$apply(function() {
+				$scope.close(); 
 			});
+		}
+	};
+
+	angularApp.run(function($rootScope) {
+		document.addEventListener("keyup", function(e) {
+			if (e.keyCode === 27)
+				$rootScope.$broadcast("escapePressed", e.target);
+		});
+
+		document.addEventListener("click", function(e) {
+			$rootScope.$broadcast("documentClicked", e.target);
+		});
+	});
+
+	var menu = function() {
+		return {
+			restrict: "E",
+			template: "<div ng-class='{ show: visible, left: alignment === \"left\", right: alignment === \"right\" }' ng-transclude></div>",
+			transclude: true,
+			scope: {
+				visible: "=",
+				alignment: "@"
+			}
 		};
 	};
 
-	var MenuController = function ($scope, $timeout, $mdSidenav, $log) {
-		$scope.toggleLeft = buildDelayedToggler('left');
-		$scope.toggleRight = buildToggler('right');
-		$scope.isOpenRight = function(){
-			return $mdSidenav('right').isOpen();
-		};
-		/**
-     * Supplies a function that will continue to operate until the
-     * time is up.
-     */
-		function debounce(func, wait, context) {
-			var timer;
-			return function debounced() {
-				var context = $scope,
-					args = Array.prototype.slice.call(arguments);
-				$timeout.cancel(timer);
-				timer = $timeout(function() {
-					timer = undefined;
-					func.apply(context, args);
-				}, wait || 10);
-			};
-		}
-		/**
-     * Build handler to open/close a SideNav; when animation finishes
-     * report completion in console
-     */
-		function buildDelayedToggler(navID) {
-			return debounce(function() {
-				$mdSidenav(navID)
-					.toggle()
-					.then(function () {
-					$log.debug("toggle " + navID + " is done");
-				});
-			}, 200);
-		}
-		function buildToggler(navID) {
-			return function() {
-				$mdSidenav(navID)
-					.toggle()
-					.then(function () {
-					$log.debug("toggle " + navID + " is done");
-				});
+	var menuItemDirective = function() {
+		return {
+			restrict: "E",
+			template: "<div ng-click='navigate()' ng-transclude></div>",
+			transclude: true,
+			scope: {
+				hash: "@"
+			},
+			link: function($scope) {
+				$scope.navigate = function() {
+					window.location.hash = $scope.hash;
+				}
 			}
 		}
 	};
 
+	
+
 	angularApp.controller("LoginController", ["$scope","$http",LoginController])
-	angularApp.controller("LeftMenuController", ["$scope", "$http", "$mdSidenav", "$log", LeftMenuController])
-	angularApp.controller("MenuController", ["$scope", "$http", "$mdSidenav", "$log", MenuController])
+	angularApp.controller("modalDemo",["$scope","$rootScope",modalDemo])
+	angularApp.directive("menu",["$scope"],menu)
+	angularApp.directive("menuItemDirective",["$scope",menuItemDirective])
+
 
 }());

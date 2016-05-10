@@ -79,6 +79,7 @@
 		};
 
 		$scope.showLeft = function(e) {
+			console.log('test')
 			$scope.leftVisible = true;
 			e.stopPropagation();
 		};

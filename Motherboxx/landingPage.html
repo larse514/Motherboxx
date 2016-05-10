@@ -12,12 +12,13 @@
 		<script src="node_modules/angular/angular.js"></script>
 		<script src="js/main.js"></script>
 		<script src="js/util/constants.js"></script>
-		<script src="js/controller/LoginController.js"></script>
+		<script src="js/controller/LandingController.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular.min.js"></script>
+		<!--script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular.min.js"></script>-->
 
 	</head>
-	<body ng-controller="modalDemo">
+	<body ng-app="landingApp">
+	<div ng-contoller="modalDemo">
 		<h1>Angular JS Sliding Menu</h1>
 		<span>This page demonstrates how a menu panel can be slid in from the side of the screen using Angular JS. It's a great directive to use for mobile devices.</span>
 		<span>The menu itself is an Angular JS directive, and I'm using LESS CSS for some of the more complicated CSS rules. I highly recommend you check them out.</span>
@@ -35,5 +36,6 @@
 			<menu-item hash="second-page">Second Page</menu-item>
 			<menu-item hash="third-page">Third Page</menu-item>
 		</menu>
+		</div>
 	</body>
 </html>

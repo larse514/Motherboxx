@@ -1,41 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 
-<html>
-	<head>
-		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<meta charset="UTF-8">
+	<title>MotherBoxxLogin</title>
+	<link href="./css/motherBoxx.css" rel="stylesheet">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="node_modules/angular/angular.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/util/constants.js"></script>
+	<script src="js/controller/LoginController.js"></script>
+	<script>
+    $(document).ready(function(){
+  $(".menu-btn").click(function(event){
+    event.preventDefault();
+    $("nav").toggleClass("menushow");
 
-		<meta charset="UTF-8">
-		<title>MotherBoxxLogin</title>
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<link href="./css/motherBoxx.css" rel="stylesheet">
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="node_modules/angular/angular.js"></script>
-		<script src="js/main.js"></script>
-		<script src="js/util/constants.js"></script>
-		<script src="js/controller/LandingController.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-		<!--script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular.min.js"></script>-->
 
-	</head>
-	<body ng-app="landingApp">
-	<div ng-contoller="modalDemo">
-		<h1>Angular JS Sliding Menu</h1>
-		<span>This page demonstrates how a menu panel can be slid in from the side of the screen using Angular JS. It's a great directive to use for mobile devices.</span>
-		<span>The menu itself is an Angular JS directive, and I'm using LESS CSS for some of the more complicated CSS rules. I highly recommend you check them out.</span>
-		<button ng-click="showLeft($event)">Show Left Menu!</button>
-		<button ng-click="showRight($event)">Show Right Menu!</button>
+  });
+});
+    </script>
+</head>
+<body>
+<nav>
+	<div class="menu-btn">
+		<a href="#">+</a>
+	</div>
 
-		<menu visible="leftVisible" alignment="left">
-			<menu-item hash="first-page">First Page</menu-item>
-			<menu-item hash="second-page">Second Page</menu-item>
-			<menu-item hash="third-page">Third Page</menu-item>
-		</menu>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Projects</a></li>
+		<li><a href="#">Blog</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+</nav>
 
-		<menu visible="rightVisible" alignment="right">
-			<menu-item hash="first-page">First Page</menu-item>
-			<menu-item hash="second-page">Second Page</menu-item>
-			<menu-item hash="third-page">Third Page</menu-item>
-		</menu>
-		</div>
-	</body>
+<article>
+	<h1>JQuery Slide Out Menu</h1>
+	<h2>Because I felt like it</h2>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus congue augue at euismod adipiscing. Etiam eu ligula sed est varius venenatis. Nulla nec feugiat augue. Morbi venenatis metus vitae libero convallis ullamcorper.</p>
+	<p>Aliquam enim felis, tincidunt hendrerit ipsum in, auctor aliquet tellus. Ut dignissim nisl sed libero pulvinar auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum eros diam, et laoreet lorem adipiscing sit amet.</p>
+
+</article>
+
+
+
+</body>
+
 </html>

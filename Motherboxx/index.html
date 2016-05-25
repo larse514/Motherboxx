@@ -10,10 +10,14 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="node_modules/angular/angular.js"></script>
+	<script src="node_modules/angular-route/angular-route.js"></script>
 	<script src="phonegap.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/util/constants.js"></script>
 	<script src="js/controller/LoginController.js"></script>
+	<script src="js/router/router.js"></script>
+
+	
 </head>
 <body ng-app="loginViewer">
 	<div class="wrapper">
@@ -40,7 +44,11 @@
 		<div class="footer">
 			<h6>Footer</h6>
 		</div>
-		
+    <div ng-view>
+		<a href="butthole">Go to butthole page</a>
+
+    </div>
+
 	</div>
 
 </body>

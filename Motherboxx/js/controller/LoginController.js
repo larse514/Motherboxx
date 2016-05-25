@@ -3,7 +3,7 @@
  */
 (function()
  {
-	var angularApp = angular.module("loginViewer", []);
+	var angularApp = angular.module("loginViewer", ['ngRoute']);
 	//Controller class for login functionality
 	var LoginController = function ($scope, $http,$location) {
 		/**
@@ -68,6 +68,7 @@
 			localStorage.expires = parseInt(data.expires);
 		}
 		};
+
 	
 
 	angularApp.controller("LoginController", ["$scope","$http",LoginController])

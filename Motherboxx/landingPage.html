@@ -9,9 +9,13 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="node_modules/angular/angular.js"></script>
+	<script src="node_modules/angular-route/angular-route.js"></script>
+	<script src="phonegap.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/util/constants.js"></script>
-	<script src="js/controller/LoginController.js"></script>
+	<script src="js/controller/LandingController.js"></script>
+	<script src="js/router/landingRouter.js"></script>
+
 	<script>
     $(document).ready(function(){
   $(".menu-btn").click(function(event){
@@ -23,21 +27,23 @@
 });
     </script>
 </head>
-<body>
+<body ng-app="MOTHERBOXX">
 <nav>
 	<div class="menu-btn">
 		<a href="#">+</a>
 	</div>
 
 	<ul>
-		<li><a href="#">Home</a></li>
-		<li><a href="#">Projects</a></li>
-		<li><a href="#">Blog</a></li>
-		<li><a href="#">Contact</a></li>
+		<li><a href="#home">Home</a></li>
+		<li><a href="#projects">Projects</a></li>
+		<li><a href="#blog">Blog</a></li>
+		<li><a href="#contacts">Contact</a></li>
 	</ul>
 </nav>
-
-
+<article><div ng-view>
+			</div>
+</article>
+		    
 </body>
 
 </html>

@@ -19,37 +19,22 @@
 
 	
 </head>
+
 <body ng-app="loginViewer">
 	<div class="wrapper">
 		<div class="header">
 		</div>
 		<div class="content">
-			<div ng-controller="LoginController">
-				<form id="loginForm">
-					<div class="loginInput">
-						<input type="input" id="userName" placeholder="Email Address" class="input" ng-model="userName">
-					</div>
-					<div class="loginInput">
-						<input type="password" name="Password" id="Password" placeholder="Password" class="input" ng-model="password">
-					</div>
-					<div class="buttonWrapper">
-					<a href="" id="loginButton" class="button loginButton" ng-click="login(userName, password)">Login</a>
-					<a href="" id="registerButton" class="button registerButton" ng-click="helloLocation()">Register</a>
-					<a href="" id="forgotPasswordLink" class="forgotPasswordLink">Forgot Password?</a>
-					<a href="landingPage.html" class="landingPageButton">Go to landing page </a>
-					</div>
-				</form>
-			</div>
+			    <div ng-view>
+	</div>
+
 		</div>
 		<div class="footer">
 			<h6>Footer</h6>
 		</div>
-    <div ng-view>
-		<a href="butthole">Go to butthole page</a>
 
     </div>
 
-	</div>
 
 </body>
 

@@ -1,16 +1,37 @@
 
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
 body {
-	margin: 0px;
+    margin: 0;
 }
 .wrapper {
-	padding: 5px;
-	width: 100%;
-	font-family: 'Open Sans', sans-serif;
-	background: url(../img/motherboxxTemplate.png) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+      margin: 0 auto;
+      padding: 0;
 }
 
 .footer{ padding: 5px; }
@@ -116,6 +137,64 @@ article {
     padding:50px 10% 0 20%;
     margin: 0 auto;
     width:70%;
+}
+.backgroundBlue {
+    background: #23AACC;
+}
+.backgroundPale{
+    background: #E4F0F0;
+}
+.backgroundWhite{
+    background: white;
+}
+.content{
+    padding: 5px;
+}
+.block{
+    padding: 10px 10px;
+    border:  1px solid #E6C55C;
+	position: relative;
+}
+.block:hover{
+	background: #E6C55C;
+}
+.block img{
+    float: left;
+    max-width: 30%;
+    height: 200px;
+}
+.block span{
+	float: left;
+	margin-left: 10px;
+	width: 66%;
+	padding-bottom: 5px;
+}
+.comicTitle{
+	color: #C73230;
+}
+#rateHeader{
+	font-weight: 700;
+	width: 38%;
+	padding-left: 107px;
+}
+.rateList  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	position: absolute;
+	right: 50;
+	bottom: 20;
+	margin: 0px 15px 0px 15px;
+}
+.rateList li {
+    float: left;
+	padding: 0px 5px 0px 5px;
 
 }
-
+.rateList a{
+    display: block;
+}
+.header img{
+    max-width: 50%;
+    padding: 5px;
+}

@@ -151,6 +151,7 @@ article {
     padding: 5px;
 }
 .block{
+	margin-top: 10px;
     padding: 10px 10px;
     border:  1px solid #E6C55C;
 	position: relative;
@@ -158,7 +159,7 @@ article {
 .block:hover{
 	background: #E6C55C;
 }
-.block img{
+.block .bookImg{
     float: left;
     max-width: 30%;
     height: 200px;
@@ -175,26 +176,38 @@ article {
 #rateHeader{
 	font-weight: 700;
 	width: 38%;
-	padding-left: 107px;
+	padding-left: 101px;
 }
 .rateList  {
     list-style-type: none;
     margin: 0;
     padding: 0;
 	position: absolute;
-	right: 50;
-	bottom: 20;
-	margin: 0px 15px 0px 15px;
+	right: 0;
+	bottom: 5;
 }
 .rateList li {
     float: left;
-	padding: 0px 5px 0px 5px;
+	padding: 0px 1px 0px 1px;
 
 }
 .rateList a{
     display: block;
 }
+.rateList a:hover{
+	color: aqua;
+}
+.rateList img{
+	height: 30px;
+}
 .header img{
     max-width: 50%;
     padding: 5px;
+}
+.dateHeader{
+	background: #5C919E;
+	padding: 5px 0px 5px 5px;
+	color: white;
+	font-weight: 700;
+	display: block;
 }

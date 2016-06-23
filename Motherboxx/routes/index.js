@@ -5,5 +5,4 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.sendFile(path.join('/index.html'))
 });
-
 module.exports = router;

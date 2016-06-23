@@ -7,55 +7,24 @@
     <title>MotherBoxxLogin</title>
     <link href="./css/motherBoxx.css" rel="stylesheet">
     <!-- Latest compiled and minified JavaScript -->
-    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
-    <!--<script src="node_modules/angular/angular.js"></script>-->
-    <!--<script src="node_modules/angular-route/angular-route.js"></script>-->
-    <!--<script src="phonegap.js"></script>-->
-    <!--<script src="js/main.js"></script>-->
-    <!--<script src="js/util/constants.js"></script>-->
-    <!--<script src="js/controller/LoginController.js"></script>-->
-    <!--<script src="js/router/router.js"></script>-->
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="node_modules/angular/angular.js"></script>
+    <<script src="node_modules/angular-route/angular-route.js"></script>
+    <script src="phonegap.js"></script>
+    <script src="js/controller/SearchController.js"></script>
+    <script src="js/router/landingRouter.js"></script>
 
 </head>
 
-<body>
+<body ng-app="MOTHERBOXX">
     <div class="wrapper">
     <div class="header backgroundBlue">
         <img src="img/motherbox_logo.svg"></img>
     </div>
+    <div ng-view>
+            </div>
 	<span class="dateHeader">NEW COMICS FOR 05/26/2016</span>
-        <div class="content backgroundPale">
-            <div class="block backgroundWhite cf">
-                <img class="bookImg" src="img/dciconic22.jpg">
-                <span class="comicTitle">Batman Vs Joker Begins</span>
-                <span class="previewText">He’s back! The original Sentinel of Liberty returns, with a new shield, a new team, and a new mission! And he’s not the only one who’s back! Like the saying goes-- cut off one LIMB, two more will take its place! HAIL HYDRA!</span>
-                <span id="rateHeader">RATE THIS BOOK</span>
-                <ul class="rateList">
-					<li><a class="rateButton"><img src="http://demo.brionsalazar.com/motherbox/images/ping01-u1678-fr.png"></a></li>
-					<li><a class="rateButton"><img src="http://demo.brionsalazar.com/motherbox/images/ping02-u1681-fr.png"></a></li>
-					<li><a class="rateButton"><img src="http://demo.brionsalazar.com/motherbox/images/ping03-u1684-fr.png"></a></li>
-					<li><a class="rateButton"><img src="http://demo.brionsalazar.com/motherbox/images/ping04-layer%205.png"></a></li>
-					<li><a class="rateButton"><img src="http://demo.brionsalazar.com/motherbox/images/ping05-u1690-fr.png"></a></li>
-                </ul>
-            </div>
-			<div class="block backgroundWhite cf">
-				<img class="bookImg" src="img/dciconic22.jpg">
-				<span class="comicTitle">Batman Vs Joker Begins</span>
-				<span class="previewText">He’s back! The original Sentinel of Liberty returns, with a new shield, a new team, and a new mission! And he’s not the only one who’s back! Like the saying goes-- cut off one LIMB, two more will take its place! HAIL HYDRA!</span>
-				<span id="rateHeader">RATE THIS BOOK</span>
-				<ul class="rateList">
-					<li><a class="rateButton"><img src="http://demo.brionsalazar.com/motherbox/images/ping01-u1678-fr.png"></a></li>
-					<li><a class="rateButton"><img src="http://demo.brionsalazar.com/motherbox/images/ping02-u1681-fr.png"></a></li>
-					<li><a class="rateButton"><img src="http://demo.brionsalazar.com/motherbox/images/ping03-u1684-fr.png"></a></li>
-					<li><a class="rateButton"><img src="http://demo.brionsalazar.com/motherbox/images/ping04-layer%205.png"></a></li>
-					<li><a class="rateButton"><img src="http://demo.brionsalazar.com/motherbox/images/ping05-u1690-fr.png"></a></li>
-				</ul>
-			</div>
-            <div class="footer">
-                <h6>Footer</h6>
-            </div>
-        </div>
+
     </div>
 
 </body>

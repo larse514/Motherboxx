@@ -12,8 +12,9 @@
                 templateUrl : 'landingPage.html',
                 controller  : 'LandingController'
             })
-            .when('/home', {
-                templateUrl : 'views/home/home.html'
+            .when('/search', {
+                templateUrl : 'views/home/search.html',
+                controller : 'SearchController'
             })
             .when('/contacts', {
                 templateUrl : 'views/home/contacts.html'
@@ -27,6 +28,8 @@
                 templateUrl : 'views/home/blog.html'
                 
             })
+            .otherwise('/search')
+
     };
 
     angularApp.config(["$routeProvider",routingConfig])

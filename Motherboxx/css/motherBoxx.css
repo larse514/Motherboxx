@@ -138,6 +138,16 @@ article {
     margin: 0 auto;
     width:70%;
 }
+.navHeader{
+	border: 1px black solid;
+	padding: 10px 0px;
+}
+.navHeader > a{
+	display: block;
+	float: left;
+	margin: 0px 2%;
+	padding: 0px 5%;
+}
 .backgroundBlue {
     background: #23AACC;
 }
@@ -146,6 +156,9 @@ article {
 }
 .backgroundWhite{
     background: white;
+}
+.backgroundBlack{
+	background: black;
 }
 .content{
     padding: 5px;
@@ -173,10 +186,14 @@ article {
 .comicTitle{
 	color: #C73230;
 }
-#rateHeader{
+.block .rateHeader{
 	font-weight: 700;
-	width: 38%;
-	padding-left: 101px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	bottom: 35;
+	width: 36%;
 }
 .rateList  {
     list-style-type: none;
@@ -194,8 +211,9 @@ article {
 .rateList a{
     display: block;
 }
-.rateList a:hover{
-	color: aqua;
+.rateList .rate1:hover{
+	content: url("img/PING03"); /* no need for qoutes */
+	display: block;
 }
 .rateList img{
 	height: 30px;
@@ -205,7 +223,7 @@ article {
     padding: 5px;
 }
 .dateHeader{
-	background: #5C919E;
+	background: black;
 	padding: 5px 0px 5px 5px;
 	color: white;
 	font-weight: 700;

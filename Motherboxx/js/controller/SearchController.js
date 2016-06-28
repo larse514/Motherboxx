@@ -43,6 +43,7 @@
 			    	alert("failed request with error" + response);
 			  });
     	}
+    	alert('asdf')
     	searchIssuesCall($scope.key, $scope.param, $scope.next_offset)
 	}
 	angularApp.controller("SearchController",["$scope","$http",SearchController])

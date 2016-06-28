@@ -32,11 +32,10 @@
     		$http({
     					method: 'GET',
     					//todo-update this and put in config file
-  						url: 'http://localhost:8080/issues',
+  						url: 'http://ec2-52-41-67-194.us-west-2.compute.amazonaws.com:8080/issues',
   						params: {key: key, param : param, offset : offset}
 				}).then(function successCallback(response) {
 						//just get first for now
-						//todo-how to limit, or have primary key in mongo
 						setSearchResults(response.data);
 		    			//otherwise it's been added		    		
 			  }, function errorCallback(response) {

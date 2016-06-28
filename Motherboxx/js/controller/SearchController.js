@@ -29,6 +29,7 @@
 			$scope.results = array
     	}
     	function searchIssuesCall(key, param, offset){
+			app.showAlert("Login Successful!", '')
     		$http({
     					method: 'GET',
     					//todo-update this and put in config file

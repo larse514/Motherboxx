@@ -4,7 +4,7 @@
 (function()
  {
 	var angularApp = angular.module("MOTHERBOXX");
-	var routingConfig = function($routeProvider) {
+	var routingConfig = function($routeProvider,$locationProvider) {
         $routeProvider
 
             // route for the landing page
@@ -29,10 +29,11 @@
                 
             })
             .otherwise('/search')
+        $locationProvider.html5Mode(true);
 
     };
 
-    angularApp.config(["$routeProvider",routingConfig])
+    angularApp.config(["$routeProvider", "$locationProvider",routingConfig])
 
 
 }());

@@ -29,7 +29,6 @@
                 
             })
             .otherwise('/search')
-        $locationProvider.html5Mode(true);
 
     };
 

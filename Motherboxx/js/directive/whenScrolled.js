@@ -1,6 +1,4 @@
 var app = angular.module('MOTHERBOXX');
-
-
 app.directive('whenScrolled', function() {
     return function(scope, elm, attr) {
     	console.log('butthole')

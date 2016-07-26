@@ -3,7 +3,7 @@
  */
 (function()
  {
-	var angularApp = angular.module("loginViewer", ['ngRoute']);
+	var angularApp = angular.module("MOTHERBOXX");
 	//Controller class for login functionality
 	var LoginController = function ($scope, $http,$location) {
 		/**
@@ -11,7 +11,7 @@
          * @param response
          */
 		var onSuccess = function(response){
-			app.showAlert("Login Successful!", '')
+			application.showAlert("Login Successful!", '')
 			storeToken(response.data);
 
 		};
@@ -20,7 +20,8 @@
          * @param error
          */
 		var onError = function(error){
-			app.showAlert("Failed to load server data",error)
+			application.showAlert("Failed to load server data",error)
+
 		};
 		/**
          * Method to submit login request to Login API
@@ -43,6 +44,10 @@
 				{
 					headers: {'x-access-token': localStorage.token}
 				}).then(onSuccess,onError)
+		};
+		$scope.hello = function(){
+            $location.path('/search');
+
 		};
 		$scope.helloLocation = function(){
 			navigator.geolocation.getCurrentPosition(function(position)
@@ -71,7 +76,7 @@
 
 	
 
-	angularApp.controller("LoginController", ["$scope","$http",LoginController])
+	angularApp.controller("LoginController", ["$scope","$http","$location",LoginController])
 
 
 }());

@@ -3,7 +3,7 @@
  */
 (function()
  {
-	var angularApp = angular.module("MOTHERBOXX", ['ngRoute']);
+	var angularApp = angular.module("MOTHERBOXX");
 	//Controller class for login functionality
 	
 	var modalDemo = function($scope, $rootScope) {

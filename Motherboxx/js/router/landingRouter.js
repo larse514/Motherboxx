@@ -3,15 +3,11 @@
  */
 (function()
  {
-	var angularApp = angular.module("MOTHERBOXX");
+	var angularApp = angular.module("MOTHERBOXX", ['ngRoute']);
 	var routingConfig = function($routeProvider,$locationProvider) {
         $routeProvider
 
             // route for the landing page
-            .when('/landing', {
-                templateUrl : 'landingPage.html',
-                controller  : 'LandingController'
-            })
             .when('/search', {
                 templateUrl : 'views/home/search.html',
                 controller : 'SearchController'
@@ -28,7 +24,11 @@
                 templateUrl : 'views/home/blog.html'
                 
             })
-            .otherwise('/search')
+            .when('/signIn', {
+                templateUrl : 'views/signIn.html',
+                controller  : 'LoginController'
+            })
+            .otherwise('/signIn')
 
     };
 

@@ -1,4 +1,4 @@
-var app = {
+var application = {
 	//GLOBAL alert method to use native phone dialog
 	showAlert: function (message, title) {
 		if (navigator.notification) {
@@ -15,4 +15,4 @@ var app = {
 	}
 };
 
-app.initialize();
+application.initialize();

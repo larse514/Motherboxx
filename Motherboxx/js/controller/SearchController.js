@@ -3,7 +3,7 @@
  */
 (function()
  {
-    var angularApp = angular.module("MOTHERBOXX", ['ngRoute']);
+    var angularApp = angular.module("MOTHERBOXX");
     //Controller class for login functionality
     var SearchController = function ($scope, $http ){
         $scope.next_offset = 0;
@@ -14,6 +14,7 @@
         $scope.limit = 6
         $scope.results =[];
         $scope.keys=[];
+        $scope.title = "NEW COMICS FOR 05/26/2016"
              
         window.onscroll = angular.bind(this, function(){
             if ($(window).scrollTop() >= $('#test').offset().top + $('#test').outerHeight() - window.innerHeight) {
@@ -26,6 +27,7 @@
         };
         $scope.searchIssues = function(key, param) {
             $scope.next_offset = 0;
+            $scope.title = "Results for: " + param;
             searchIssuesCall(key, param, $scope.next_offset, $scope.limit, setSearchResults);
         }
         function setSearchResults(response){

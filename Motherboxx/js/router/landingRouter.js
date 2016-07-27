@@ -25,9 +25,8 @@
                 
             })
             .when('/signIn', {
-                templateUrl : 'views/signIn.html',
-                controller  : 'LoginController'
-            })
+             template: '<h1> buttole</h1>'        
+\            })
             .otherwise('/signIn')
 
     };

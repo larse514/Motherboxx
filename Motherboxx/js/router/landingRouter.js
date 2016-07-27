@@ -4,7 +4,7 @@
 (function()
  {
 	var angularApp = angular.module("MOTHERBOXX", ['ngRoute']);
-	var routingConfig = function($routeProvider,$compileProvider) {
+	var routingConfig = function($routeProvider,  $compileProvider) {
         $routeProvider
 
             // route for the landing page
@@ -25,17 +25,16 @@
                 
             })
             .when('/signIn', {
-             template: '<h1> buttole</h1>'        
+                templateUrl : 'views/signIn.html',
+                controller  : 'LoginController'
             })
             .otherwise('/signIn')
 
     };
-    $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
+    $compileProvider.urlSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
 
 
     angularApp.config(["$routeProvider", "$compileProvider",routingConfig])
-
-})
 
 
 }());

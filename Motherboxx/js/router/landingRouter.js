@@ -31,7 +31,7 @@
             .otherwise('/signIn')
 
     };
-    $compileProvider.urlSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
+    $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
 
 
     angularApp.config(["$routeProvider", "$compileProvider",routingConfig])

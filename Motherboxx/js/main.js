@@ -8,7 +8,7 @@ var application = {
 		}
 	},
  	initialize: function() {
- 		alert("wtf")
+ 		alert(window.location)
         this.bindEvents();
     },
     bindEvents: function() {

@@ -29,9 +29,9 @@
                 controller  : 'LoginController'
             })
             .otherwise('/signIn')
+    $compileProvider.urlSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
 
     };
-    $compileProvider.urlSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
 
 
     angularApp.config(["$routeProvider", "$compileProvider",routingConfig])

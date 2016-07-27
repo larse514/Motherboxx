@@ -26,7 +26,7 @@
             })
             .when('/signIn', {
              template: '<h1> buttole</h1>'        
-\            })
+            })
             .otherwise('/signIn')
 
     };

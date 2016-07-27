@@ -4,7 +4,7 @@
 (function()
  {
 	var angularApp = angular.module("MOTHERBOXX", ['ngRoute']);
-	var routingConfig = function($routeProvider,$locationProvider) {
+	var routingConfig = function($routeProvider,$compileProvider) {
         $routeProvider
 
             // route for the landing page
@@ -31,8 +31,12 @@
             .otherwise('/signIn')
 
     };
+    $compileProvider.urlSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
 
-    angularApp.config(["$routeProvider", "$locationProvider",routingConfig])
+
+    angularApp.config(["$routeProvider", "$compileProvider",routingConfig])
+
+})
 
 
 }());

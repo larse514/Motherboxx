@@ -7,12 +7,18 @@ var application = {
 			alert(title ? (title + ": " + message) : message);
 		}
 	},
-	initialize: function(){
-		var self = this;
-	},
-	helloworld: function(){
+ 	initialize: function() {
+        this.bindEvents();
+    },
+    bindEvents: function() {
+        document.addEventListener('deviceready', this.onDeviceReady, true);
+    },
 
-	}
+    onDeviceReady: function() {
+        angular.element(document).ready(function() {
+            angular.bootstrap(document);
+        });
+    }
 };
 
 application.initialize();

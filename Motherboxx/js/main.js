@@ -8,6 +8,7 @@ var application = {
 		}
 	},
  	initialize: function() {
+ 		alert("wtf")
         this.bindEvents();
     },
     bindEvents: function() {

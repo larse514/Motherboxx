@@ -19,6 +19,7 @@
 	<!--Android icon config-->
     <!--Line allows outside AJAX calls-->
 	<access origin="*" />
+    <allow-navigation href="http://*/*" />
 
     <feature name="http://api.phonegap.com/1.0/camera"/>
     <feature name="http://api.phonegap.com/1.0/contacts"/>

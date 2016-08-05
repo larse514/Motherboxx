@@ -16,8 +16,7 @@
     <author href="http://google.com" email="andrew.larse514@gmail.com">
         Andrew Larsen
     </author>
-	<!--Android icon configX
-	<icon src="img/motherboxxIcon.png"  width="57" height="57" density="mdpi" />CS
+	<!--Android icon config-->
     <!--Line allows outside AJAX calls-->
 	<access origin="*" />
 

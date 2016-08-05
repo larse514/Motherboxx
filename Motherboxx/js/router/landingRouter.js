@@ -25,7 +25,7 @@
                 
             })
             .when('/signIn', {
-                templateUrl : '/views/signIn.html',
+                templateUrl : 'views/signIn.html',
                 controller  : 'LoginController'
             })
             .otherwise('/signIn')

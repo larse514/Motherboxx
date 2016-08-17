@@ -17,6 +17,7 @@
         Andrew Larsen
     </author>
 	<!--Android icon config-->
+	<icon src="img/motherboxxIcon.png"  width="57" height="57" density="mdpi" />
     <!--Line allows outside AJAX calls-->
 	<access origin="*" />
     <!-- The above is equivalent to these three declarations -->

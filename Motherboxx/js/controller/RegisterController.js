@@ -9,6 +9,7 @@
 		$scope.hello = function(username,password){
 			console.log(username,password)
 			if(username === "larse514" && password == "password"){
+				alert(window.location)
 				window.location.pathname = "/register.html"
 			}
 		} 

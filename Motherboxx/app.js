@@ -37,7 +37,7 @@ if (app.get('env') === 'development') {
   app.use(function(err, req, res, next) {
     console.log(err)
     res.status(err.status || 500);
-    res.render('error', {
+    res.send('error', {
       message: err.message,
       error: err
     });
@@ -50,7 +50,7 @@ app.use(function(err, req, res, next) {
       console.log(err)
 
   res.status(err.status || 500);
-  res.render('error', {
+  res.send('error', {
     message: err.message,
     error: {}
   });

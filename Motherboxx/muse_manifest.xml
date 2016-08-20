@@ -1,31 +1,31 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="brionsalazar.com/demo/motherboxapp" resolutions="1x" timestamp="1471458723125">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="brionsalazar.com/demo/motherboxapp" resolutions="1x" timestamp="1471530686701">
   <folder name="css">
     <file name="site_global.css" crc="3760913778"/>
     <file name="master_reg-master.css" crc="3991949333" ref="register:password-recovery"/>
     <file name="master_main-master.css" crc="186574599" ref="friend-profile:ping:global:pingdetails:new-comics:single-book:globalevents:notification:friends:events:bookshelf:pending:library:trending:newping:feed:profile:search:localevents:local"/>
-    <file name="friend-profile.css" crc="102843537" ref="friend-profile"/>
-    <file name="ping.css" crc="3942294645" ref="ping"/>
-    <file name="global.css" crc="4060460374" ref="global"/>
+    <file name="friend-profile.css" crc="4267885932" ref="friend-profile"/>
+    <file name="ping.css" crc="210032604" ref="ping"/>
+    <file name="global.css" crc="3969222155" ref="global"/>
     <file name="pingdetails.css" crc="450270836" ref="pingdetails"/>
-    <file name="new-comics.css" crc="295438355" ref="new-comics"/>
-    <file name="single-book.css" crc="148816480" ref="single-book"/>
-    <file name="globalevents.css" crc="3916980795" ref="globalevents"/>
-    <file name="notification.css" crc="4191713741" ref="notification"/>
-    <file name="register.css" crc="429645460" ref="register"/>
-    <file name="friends.css" crc="3827833957" ref="friends"/>
-    <file name="index.css" crc="3970167947" ref="index"/>
-    <file name="events.css" crc="3846805766" ref="events"/>
+    <file name="new-comics.css" crc="213811129" ref="new-comics"/>
+    <file name="single-book.css" crc="347647111" ref="single-book"/>
+    <file name="globalevents.css" crc="153970511" ref="globalevents"/>
+    <file name="notification.css" crc="533264200" ref="notification"/>
+    <file name="register.css" crc="4037858258" ref="register"/>
+    <file name="friends.css" crc="4051672178" ref="friends"/>
+    <file name="index.css" crc="105595870" ref="index"/>
+    <file name="events.css" crc="3959816705" ref="events"/>
     <file name="password-recovery.css" crc="506993320" ref="password-recovery"/>
-    <file name="bookshelf.css" crc="4194440029" ref="bookshelf"/>
-    <file name="pending.css" crc="459288427" ref="pending"/>
-    <file name="library.css" crc="507296090" ref="library"/>
-    <file name="trending.css" crc="15250057" ref="trending"/>
-    <file name="newping.css" crc="3853197640" ref="newping"/>
-    <file name="feed.css" crc="3961764366" ref="feed"/>
-    <file name="profile.css" crc="4093016937" ref="profile"/>
-    <file name="search.css" crc="4148690722" ref="search"/>
-    <file name="localevents.css" crc="4058251157" ref="localevents"/>
-    <file name="local.css" crc="383729050" ref="local"/>
+    <file name="bookshelf.css" crc="10909136" ref="bookshelf"/>
+    <file name="pending.css" crc="363506251" ref="pending"/>
+    <file name="library.css" crc="231315811" ref="library"/>
+    <file name="trending.css" crc="4037870047" ref="trending"/>
+    <file name="newping.css" crc="239086012" ref="newping"/>
+    <file name="feed.css" crc="441557244" ref="feed"/>
+    <file name="profile.css" crc="3897138778" ref="profile"/>
+    <file name="search.css" crc="3788391743" ref="search"/>
+    <file name="localevents.css" crc="3788072154" ref="localevents"/>
+    <file name="local.css" crc="323738762" ref="local"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="169078940" ref="index:new-comics:register:password-recovery:profile:friends:library:ping:feed:local:global:single-book:pending:bookshelf:trending:search:friend-profile:pingdetails:notification:events:localevents:globalevents:newping"/>
@@ -36,13 +36,17 @@
     <file name="jquery.musepolyfill.bgsize.js" crc="271560940" ref="index:new-comics:register:profile:friends:ping:feed:local:global:single-book:pending:friend-profile:notification:newping"/>
     <file name="require.js" crc="4108833657" ref="index:new-comics:register:password-recovery:profile:friends:library:ping:feed:local:global:single-book:pending:bookshelf:trending:search:friend-profile:pingdetails:notification:events:localevents:globalevents:newping"/>
     <file name="pie.js" crc="3831537696" ref="new-comics:profile:friends:library:ping:feed:local:global:single-book:pending:bookshelf:trending:search:friend-profile:notification:events:localevents:globalevents:newping"/>
+    <file name="webpro.js" crc="4067903014" ref="index:register"/>
+    <file name="form_check.php" crc="121412709" ref="index"/>
+    <file name="form_throttle.php" crc="4268640971" ref="index"/>
+    <file name="form_process.php" crc="444429785" ref="index"/>
+    <file name="form-u19014.php" crc="194553508" ref="index"/>
+    <file name="form-u19110.php" crc="363280851" ref="register"/>
   </folder>
   <folder name="images">
     <file name="motherbox_logo_square.svg" crc="4123204956" seo="true" ref="index:register:password-recovery"/>
     <file name="motherbox_logo_square_poster_.png" crc="330382490" ref="index"/>
     <file name="pasted image 160x160.jpg" crc="328522782" seo="true" ref="index"/>
-    <file name="user-3_grey.png" crc="4159330622" seo="true" ref="index"/>
-    <file name="padlock_grey.png" crc="39895965" seo="true" ref="index"/>
     <file name="dubai-clouds002.jpg" crc="3899837022" ref="index:new-comics:register"/>
     <file name="motherbox_logo_rec_white.png" crc="532427229" seo="true" ref="new-comics:profile:friends:library:ping:feed:local:global:single-book:pending:bookshelf:trending:search:friend-profile:pingdetails:notification:events:localevents:globalevents:newping"/>
     <file name="globe_white.png" crc="46799749" ref="new-comics:feed:local:global"/>
@@ -54,12 +58,11 @@
     <file name="359012_sx276_ql80_ttd_.jpg" crc="428170214" ref="new-comics:single-book"/>
     <file name="speech-bubble_red.png" crc="404927267" seo="true" ref="new-comics:ping:feed:local:global:single-book:friend-profile"/>
     <file name="adddocument_red.png" crc="262941711" seo="true" ref="new-comics:feed:local:global:single-book:friend-profile"/>
-    <file name="ping_red.png" crc="4222521563" seo="true" ref="new-comics:feed:single-book"/>
+    <file name="ping_red.png" crc="4222521563" seo="true" ref="new-comics:feed:single-book:index"/>
     <file name="dccomics.jpg" crc="3891729972" seo="true" ref="new-comics:ping"/>
     <file name="greenarrow_04.jpg" crc="270354818" ref="new-comics:profile:friend-profile"/>
     <file name="imagecomics.jpg" crc="267431106" seo="true" ref="new-comics"/>
     <file name="nailbiter_024.jpg" crc="4131805329" ref="new-comics"/>
-    <file name="droparrow_yellow.png" crc="3823484650" seo="true" ref="register"/>
     <file name="16f2a05.jpg" crc="315907200" ref="profile"/>
     <file name="compass_white.png" crc="177719492" seo="true" ref="profile:friends:ping:feed:local:global:pending:friend-profile:newping"/>
     <file name="settings_white.png" crc="496334887" seo="true" ref="profile"/>
@@ -118,28 +121,44 @@
     <file name="camera_red.png" crc="4116855053" seo="true" ref="newping"/>
     <file name="ffo_facebook-icon_44px.jpg" crc="472013879" seo="true" ref="newping"/>
     <file name="ffo_social-media-icon_twitter.png" crc="393773936" seo="true" ref="newping"/>
+    <file name="u19019-17.png" crc="4132192047" ref="index"/>
+    <file name="u19019-17-r.png" crc="4093872210" ref="index"/>
+    <file name="u19019-17-m.png" crc="193655915" ref="index"/>
+    <file name="u19019-17-fs.png" crc="130158462" ref="index"/>
+    <file name="u19130-17.png" crc="484718830" ref="register"/>
+    <file name="u19130-17-r.png" crc="4057698765" ref="register"/>
+    <file name="u19130-17-m.png" crc="121496961" ref="register"/>
+    <file name="u19130-17-fs.png" crc="3949377329" ref="register"/>
+    <file name="checkboxunchecked.jpg" crc="3995141794" ref="register"/>
+    <file name="checkboxuncheckedrollover.jpg" crc="4064281604" ref="register"/>
+    <file name="checkboxuncheckedmousedown.jpg" crc="187163638" ref="register"/>
+    <file name="checkboxchecked.jpg" crc="278809147" ref="register"/>
+    <file name="checkboxcheckedrollover.jpg" crc="9876373" ref="register"/>
+    <file name="checkboxcheckedmousedown.jpg" crc="4102437312" ref="register"/>
+    <file name="user_red.png" crc="3975457820" seo="true" ref="index"/>
+    <file name="padlock_red.png" crc="3985955750" seo="true" ref="index"/>
   </folder>
-  <file name="index.html" crc="266090664" seo="true" mt="1470770120130" redirect="true"/>
-  <file name="new-comics.html" crc="4228092601" seo="true" mt="1470844958704" redirect="true"/>
-  <file name="register.html" crc="298616311" seo="true" mt="1470770887687" redirect="true"/>
+  <file name="index.html" crc="280439005" seo="true" mt="1471530423971" redirect="true"/>
+  <file name="new-comics.html" crc="464788578" seo="true" mt="1471530448216" redirect="true"/>
+  <file name="register.html" crc="3888986007" seo="true" mt="1471530590892" redirect="true"/>
   <file name="password-recovery.html" crc="4121630450" seo="true" mt="1470770887688" redirect="true"/>
-  <file name="profile.html" crc="4195265520" seo="true" mt="1470845017779" redirect="true"/>
-  <file name="friends.html" crc="518736276" seo="true" mt="1470844875733" redirect="true"/>
-  <file name="library.html" crc="4069039648" seo="true" mt="1470844947157" redirect="true"/>
-  <file name="ping.html" crc="3780211000" seo="true" mt="1470845029084" redirect="true"/>
-  <file name="feed.html" crc="230954960" seo="true" mt="1470848237874" redirect="true"/>
-  <file name="local.html" crc="3848177230" seo="true" mt="1470844817860" redirect="true"/>
-  <file name="global.html" crc="474143146" seo="true" mt="1470844860102" redirect="true"/>
-  <file name="single-book.html" crc="3972158942" seo="true" mt="1470844970224" redirect="true"/>
-  <file name="pending.html" crc="4294848753" seo="true" mt="1470844889908" redirect="true"/>
-  <file name="bookshelf.html" crc="3778987076" seo="true" mt="1470844980257" redirect="true"/>
-  <file name="trending.html" crc="493674243" seo="true" mt="1470844992321" redirect="true"/>
-  <file name="search.html" crc="25366576" seo="true" mt="1470845002882" redirect="true"/>
-  <file name="friend-profile.html" crc="98968368" seo="true" mt="1470844930658" redirect="true"/>
-  <file name="pingdetails.html" crc="4241884426" seo="true" mt="1470843692509" redirect="true"/>
-  <file name="notification.html" crc="88476360" seo="true" mt="1470845054619" redirect="true"/>
-  <file name="events.html" crc="3878345437" seo="true" mt="1470845065676" redirect="true"/>
-  <file name="localevents.html" crc="4085199029" seo="true" mt="1470845076726" redirect="true"/>
-  <file name="globalevents.html" crc="188661821" seo="true" mt="1470845087606" redirect="true"/>
-  <file name="newping.html" crc="488314470" seo="true" mt="1470847041120" redirect="true"/>
+  <file name="profile.html" crc="4281368029" seo="true" mt="1471530448216" redirect="true"/>
+  <file name="friends.html" crc="111847035" seo="true" mt="1471530448216" redirect="true"/>
+  <file name="library.html" crc="248289126" seo="true" mt="1471530448216" redirect="true"/>
+  <file name="ping.html" crc="340578406" seo="true" mt="1471530448216" redirect="true"/>
+  <file name="feed.html" crc="4068688028" seo="true" mt="1471530448216" redirect="true"/>
+  <file name="local.html" crc="4035520559" seo="true" mt="1471530448216" redirect="true"/>
+  <file name="global.html" crc="4201199420" seo="true" mt="1471530448216" redirect="true"/>
+  <file name="single-book.html" crc="3910269579" seo="true" mt="1471530448216" redirect="true"/>
+  <file name="pending.html" crc="110665413" seo="true" mt="1471530448216" redirect="true"/>
+  <file name="bookshelf.html" crc="4225792252" seo="true" mt="1471530448216" redirect="true"/>
+  <file name="trending.html" crc="66843088" seo="true" mt="1471530448216" redirect="true"/>
+  <file name="search.html" crc="470111889" seo="true" mt="1471530448216" redirect="true"/>
+  <file name="friend-profile.html" crc="318556678" seo="true" mt="1471530448216" redirect="true"/>
+  <file name="pingdetails.html" crc="4241884426" seo="true" mt="1471530448216" redirect="true"/>
+  <file name="notification.html" crc="314616438" seo="true" mt="1471530448216" redirect="true"/>
+  <file name="events.html" crc="104088456" seo="true" mt="1471530448216" redirect="true"/>
+  <file name="localevents.html" crc="320098107" seo="true" mt="1471530448216" redirect="true"/>
+  <file name="globalevents.html" crc="4194424043" seo="true" mt="1471530448216" redirect="true"/>
+  <file name="newping.html" crc="4290496006" seo="true" mt="1471530448216" redirect="true"/>
 </manifest>

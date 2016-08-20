@@ -11,25 +11,28 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "museconfig.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "museconfig.js", "webpro.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <title>Login</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3760913778"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3970167947" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=105595870" id="pagesheet"/>
   <!-- JS includes -->
   <script type="text/javascript">
-   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//use.typekit.net/ik/UxzAF6q3KtklBL-OjJNwnDnswS2BckLoP6WVb8kcdeqfeCIgfHOFLUJGwRMow2ju5BvujDwujQ6X52gqwRBcFRqXFAb3ZAFqjhmqw2whZR8KjUGtHKoKSc8zd1FydeBEjWJ0jhNlOe4k-AN0ShBCjWTySKoRdhXCiaiaOc4k-AN0ShBCjWTySKoRdhXKghlzScNCZWjKIAlzScNCZWjljhN0Zem0ShmqH6GJ8lGgIMMjfPMfH6GJ8iGgIMMjgPMfH6GJqFGgIMMjgkMfH6GJClGgIMIjgkMfP6sFiWF8qMY_hlHNgb.js" type="text/javascript">\x3C/script>');
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//use.typekit.net/ik/ps0VlUWLf898YkeoxbnL7aUN6py5pmXz9p3_3AYsf6CfeCXgfHOFLUJGwRMow2ju5BvujDwujQ6X52gqwRBcFRqXFAb3ZAFqjhmqw2whZR8KjUGtHKoKSc8zd1FydeBEjWJ0jhNlOe4k-AN0ShBCjWTySKoRdhXCiaiaOc4k-AN0ShBCjWTySKoRdhXKIAlzScNCZWjljhN0Zem0ShmqJ6inda4zdemhH6GJClGgIMMjgkMfH6GJ8lGgIMIjfPMfH6GJ8iGgIMIjgPMfH6GJqFGgIMIjgkMfH6GJuNGgIMIj2kMfP6sFiWF8qMe5RipNgb.js" type="text/javascript">\x3C/script>');
 </script>
   <!-- Other scripts -->
   <script type="text/javascript">
    try {Typekit.load();} catch(e) {}
 </script>
+<!--Angular JS-->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+    <script src="js/controller/RegisterController.js"></script>
    </head>
- <body class="museBGSize">
+ <body ng-app="MOTHERBOXX" class="museBGSize">
 
-  <div class="clearfix borderbox" id="page"><!-- column -->
+  <div ng-controller="RegisterController" class="clearfix borderbox" id="page"><!-- column -->
    <div class="position_content" id="page_position_content">
     <div class="clearfix colelem" id="pu3668"><!-- group -->
      <div class="clip_frame grpelem" id="u3668"><!-- svg -->
@@ -67,50 +70,55 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <p>- OR -</p>
     </div>
     <!-- /m_editable -->
-    <div class="clearfix colelem" id="u3728"><!-- group -->
-     <div class="clearfix grpelem" id="u2854"><!-- group -->
-      <!-- m_editable region-id="editable-static-tag-U3622-BP_infinity" template="index.html" data-type="image" -->
-      <div class="clip_frame grpelem" id="u3622" data-muse-uid="U3622" data-muse-type="img_frame"><!-- image -->
-       <img class="block" id="u3622_img" src="images/user-3_grey.png?crc=4159330622" alt="" data-muse-src="images/user-3_grey.png?crc=4159330622" data-image-width="34" data-image-height="34"/>
-      </div>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U3561-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link" -->
-      <div class="clearfix grpelem" id="u3561-4" data-muse-uid="U3561" data-muse-type="txt_frame"><!-- content -->
-       <p>Username</p>
-      </div>
-      <!-- /m_editable -->
-     </div>
-    </div>
-    <div class="clearfix colelem" id="u3731"><!-- group -->
-     <div class="clearfix grpelem" id="u2855"><!-- group -->
-      <!-- m_editable region-id="editable-static-tag-U3612-BP_infinity" template="index.html" data-type="image" -->
-      <div class="clip_frame grpelem" id="u3612" data-muse-uid="U3612" data-muse-type="img_frame"><!-- image -->
-       <img class="block" id="u3612_img" src="images/padlock_grey.png?crc=39895965" alt="" data-muse-src="images/padlock_grey.png?crc=39895965" data-image-width="34" data-image-height="34"/>
-      </div>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U3570-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link" -->
-      <div class="clearfix grpelem" id="u3570-4" data-muse-uid="U3570" data-muse-type="txt_frame"><!-- content -->
-       <p>Password</p>
-      </div>
-      <!-- /m_editable -->
-     </div>
-    </div>
-    <div class="clearfix colelem" id="u2856"><!-- group -->
-     <!-- m_editable region-id="editable-static-tag-U2858" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-     <div class="pointer_cursor clearfix grpelem" id="u2858" data-muse-uid="U2858"><!-- group -->
-      <a class="block" href="feed.html" data-href="page:U7771"></a>
-      <!-- m_editable region-id="editable-static-tag-U2857-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,clickable" data-ice-editable="link" -->
-      <a class="nonblock nontext clearfix grpelem" id="u2857-4" href="feed.html" data-href="page:U7771" data-muse-uid="U2857" data-muse-type="txt_frame"><!-- content --><p>Sign In</p></a>
-      <!-- /m_editable -->
+    <div class="clearfix colelem" id="pu2871-6"><!-- group -->
+     <!-- m_editable region-id="editable-static-tag-U2871-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link" -->
+     <div class="clearfix grpelem" id="u2871-6" data-muse-uid="U2871" data-muse-type="txt_frame"><!-- content -->
+      <p id="u2871-4"><span id="u2871-3"><a class="nonblock" href="password-recovery.html" data-href="page:U4853"><span id="u2871">Forgot your password?</span></a></span></p>
      </div>
      <!-- /m_editable -->
+     <div class="clearfix grpelem" id="u19107"><!-- group -->
+      <div class="clearfix grpelem" id="pu19090"><!-- column -->
+       <!-- m_editable region-id="editable-static-tag-U19090-BP_infinity" template="index.html" data-type="image" -->
+       <div class="clip_frame colelem" id="u19090" data-muse-uid="U19090" data-muse-type="img_frame"><!-- image -->
+        <img class="block" id="u19090_img" src="images/user_red.png?crc=3975457820" alt="" data-muse-src="images/user_red.png?crc=3975457820" data-image-width="32" data-image-height="32"/>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U19097-BP_infinity" template="index.html" data-type="image" -->
+       <div class="clip_frame colelem" id="u19097" data-muse-uid="U19097" data-muse-type="img_frame"><!-- image -->
+        <img class="block" id="u19097_img" src="images/padlock_red.png?crc=3985955750" alt="" data-muse-src="images/padlock_red.png?crc=3985955750" data-image-width="31" data-image-height="31"/>
+       </div>
+       <!-- /m_editable -->
+      </div>
+      <form class="form-grp clearfix grpelem" id="widgetu19014" method="post" enctype="multipart/form-data" action="scripts/form-u19014.php"><!-- none box -->
+       <div class="fld-grp clearfix grpelem" id="widgetu19027" data-required="false" data-type="email"><!-- none box -->
+        <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u19028-4"><!-- content --><input class="wrapped-input" type="password" spellcheck="false" id="widgetu19027_input" name="Email" tabindex="2" ng-model="password"/><label class="wrapped-input fld-prompt" id="widgetu19027_prompt" for="widgetu19027_input"><span class="actAsPara">Password</span></label></span>
+       </div>
+       <!-- m_editable region-id="editable-static-tag-U19021-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link" -->
+       <div class="clearfix grpelem" id="u19021-4" data-muse-uid="U19021" data-muse-type="txt_frame"><!-- content -->
+        <p>Submitting Form...</p>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U19026-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link" -->
+       <div class="clearfix grpelem" id="u19026-4" data-muse-uid="U19026" data-muse-type="txt_frame"><!-- content -->
+        <p>The server encountered an error.</p>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U19020-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link" -->
+       <div class="clearfix grpelem" id="u19020-4" data-muse-uid="U19020" data-muse-type="txt_frame"><!-- content -->
+        <p>Form received.</p>
+       </div>
+       <!-- /m_editable -->
+       <input class="submit-btn NoWrap grpelem" id="u19019-17" type="submit" value="" tabindex="3" ng-click="hello(username, password)"/><!-- state-based BG images -->
+       <div class="fld-grp clearfix grpelem" id="widgetu19078" data-required="false"><!-- none box -->
+        <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u19080-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu19078_input" name="custom_U19078" tabindex="1" ng-model="username"/><label class="wrapped-input fld-prompt" id="widgetu19078_prompt" for="widgetu19078_input"><span class="actAsPara">Username</span></label></span>
+       </div>
+      </form>
+     </div>
     </div>
-    <!-- m_editable region-id="editable-static-tag-U2871-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link" -->
-    <div class="clearfix colelem" id="u2871-6" data-muse-uid="U2871" data-muse-type="txt_frame"><!-- content -->
-     <p id="u2871-4"><span id="u2871-3"><a class="nonblock" href="password-recovery.html" data-href="page:U4853"><span id="u2871">Forgot your password?</span></a></span></p>
-    </div>
+    <!-- m_editable region-id="editable-static-tag-U19809-BP_infinity" template="index.html" data-type="image" data-ice-options="clickable" data-ice-editable="link" -->
+    <a class="nonblock nontext clip_frame colelem" id="u19809" href="feed.html" data-href="page:U7771" data-muse-uid="U19809" data-muse-type="img_frame"><!-- image --><img class="block" id="u19809_img" src="images/ping_red.png?crc=4222521563" alt="" data-muse-src="images/ping_red.png?crc=4222521563" data-image-width="24" data-image-height="24"/></a>
     <!-- /m_editable -->
-    <div class="verticalspacer" data-offset-top="491" data-content-above-spacer="490" data-content-below-spacer="63"></div>
+    <div class="verticalspacer" data-offset-top="522" data-content-above-spacer="522" data-content-below-spacer="31"></div>
     <div class="browser_width colelem" id="u3532-bw">
      <div id="u3532"><!-- group -->
       <div class="clearfix" id="u3532_align_to_page">
@@ -124,19 +132,25 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     </div>
    </div>
   </div>
+  <div class="preload_images">
+   <img class="preload" src="images/u19019-17-r.png?crc=4093872210" alt=""/>
+   <img class="preload" src="images/u19019-17-m.png?crc=193655915" alt=""/>
+   <img class="preload" src="images/u19019-17-fs.png?crc=130158462" alt=""/>
+  </div>
   <!-- Other scripts -->
   <script type="text/javascript">
    window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
 16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),i=0;i<f.length;i++)if("text/css"==f[i].type){var h=(f[i].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!h||!h[1]||!h[2])break;b[h[1]]=h[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(i=0;i<Muse.assets.required.length;){var h=Muse.assets.required[i],l=h.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(i,1),"undefined"!=typeof b[h]&&(k!=b[h]>>>24||l!=(b[h]&16777215))&&Muse.assets.outOfDate.push(h)):i++;f.className="version";break;case "js":k.match(/^jquery-[\d\.]+/gi)&&d&&d().jquery=="1.8.3"?Muse.assets.required.splice(i,1):i++;break;default:throw Error("Unsupported file type: "+
 l);}}f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","webpro","jquery.watch","jquery.musepolyfill.bgsize"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.initWidget('#widgetu19014', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu19014 */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};

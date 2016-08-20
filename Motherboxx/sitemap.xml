@@ -2,121 +2,121 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/index.html</loc>
-    <lastmod>2016-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/newping.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/globalevents.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/newping.html</loc>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/localevents.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/events.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/notification.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/pingdetails.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/friend-profile.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/search.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/trending.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/bookshelf.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/pending.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/single-book.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/global.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/local.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/feed.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/ping.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/library.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/friends.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/profile.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -127,164 +127,158 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/register.html</loc>
-    <lastmod>2016-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/new-comics.html</loc>
-    <lastmod>2016-08-10</lastmod>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/backarrow_white.png</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/camera_red.png</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/pasted%20image%20160x160.jpg</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/group_red.png</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/user_add_grey.png</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/user_add-red.png</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/punisher0429x45.jpg</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/user_remove_grey.png</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/search_grey.png</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/settings_red.png</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/settings_white.png</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/compass_white.png</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/droparrow_yellow.png</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/imagecomics.jpg</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/dccomics.jpg</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/ping_red.png</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/adddocument_red.png</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/speech-bubble_red.png</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/marvel.jpg</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/motherbox_logo_rec_white.png</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/padlock_grey.png</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/user-3_grey.png</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/motherbox_logo_square.svg</loc>
-    <lastmod>2016-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://brionsalazar.com/demo/motherboxapp/images/ffo_facebook-icon_44px.jpg</loc>
-    <lastmod>2016-08-17</lastmod>
+    <loc>http://brionsalazar.com/demo/motherboxapp/register.html</loc>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://brionsalazar.com/demo/motherboxapp/images/ffo_social-media-icon_twitter.png</loc>
-    <lastmod>2016-08-17</lastmod>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/pasted%20image%20160x160.jpg</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/ffo_facebook-icon_44px.jpg</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/camera_red.png</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/backarrow_white.png</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/group_red.png</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/user_add_grey.png</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/user_add-red.png</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/punisher0429x45.jpg</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/user_remove_grey.png</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/search_grey.png</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/settings_red.png</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/settings_white.png</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/compass_white.png</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/imagecomics.jpg</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/dccomics.jpg</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/ping_red.png</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/adddocument_red.png</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/speech-bubble_red.png</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/marvel.jpg</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/motherbox_logo_rec_white.png</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/user_red.png</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/motherbox_logo_square.svg</loc>
+    <lastmod>2016-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://brionsalazar.com/demo/motherboxapp/images/padlock_red.png</loc>
+    <lastmod>2016-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

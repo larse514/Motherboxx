@@ -10,7 +10,7 @@
 			console.log(username,password)
 			if(username === "larse514" && password == "password"){
 				alert(window.location)
-				window.location.pathname = "file:///android_asset/www/register.html"
+				window.location.pathname = "android_asset/www/register.html"
 			}
 		} 
 	}

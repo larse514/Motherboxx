@@ -5,8 +5,10 @@
 (function() {
     localStorage.OPENSHIFT = JSON.stringify({
         URLS: {
-            LOGIN: "http://mbloginservice-larslarslars.rhcloud.com/login",
-            HELLO_WORLD: 'http://mbloginservice-larslarslars.rhcloud.com/api/v1/helloworld'
+            LOGIN: "http://localhost:8080/login",
+            HELLO_WORLD: 'http://localhost:8080/api/v1/helloworld',
+            SIGN_UP: 'http://localhost:8080/signUp'
+
         }
     });
 }());

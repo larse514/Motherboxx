@@ -10,9 +10,6 @@ var application = {
 	initialize: function(){
 		var self = this;
 	},
-	helloworld: function(){
-
-	}
 };
 
 application.initialize();

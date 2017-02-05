@@ -5,7 +5,7 @@
  {
 	var angularApp = angular.module("MOTHERBOXX");
 	//Controller class for login functionality
-	var LoginController = function ($scope, $http,$location) {
+	var LoginController = function ($scope, $http,$location, NavigationService) {
 		/**
          * Method to store auth token
          * @param response
@@ -13,6 +13,7 @@
 		var onSuccess = function(response){
 			application.showAlert("Login Successful!", '')
 			storeToken(response.data);
+			NavigationService.goToPage("/feed.html")
 
 		};
 		/**
@@ -45,10 +46,6 @@
 					headers: {'x-access-token': localStorage.token}
 				}).then(onSuccess,onError)
 		};
-		$scope.hello = function(){
-            $location.path('/search');
-
-		};
 		$scope.helloLocation = function(){
 			navigator.geolocation.getCurrentPosition(function(position)
 													 {
@@ -72,11 +69,8 @@
 			localStorage.token = data.token;
 			localStorage.expires = parseInt(data.expires);
 		}
-		};
+	};
 
-	
-
-	angularApp.controller("LoginController", ["$scope","$http","$location",LoginController])
-
+	angularApp.controller("LoginController", ["$scope","$http","$location","NavigationService",LoginController])
 
 }());
